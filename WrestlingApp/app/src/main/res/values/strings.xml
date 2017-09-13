@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Wrestling App</string>
+
+    <string name="game">Game</string>
+
+    <string name="hint_edit_main">Enter your name :</string>
+
+    <string name="press_round">Press Round Button</string>
+
+    <string name="score">0</string>
+
+    <string name="round1">Round 1</string>
+
+    <string name="round2">Round 2</string>
+
+    <string name="round3">Round 3</string>
+
+    <string name="fight">Fight !</string>
+
+    <string name="PlayerNameB">Nikola</string>
+
+    <string name="takedown">Takedown + 2</string>
+    <string name="reversal">Reversal + 2</string>
+    <string name="escape">Escape +1</string>
+    <string name="nearFall2">Near Fall(2 sec) + 2</string>
+    <string name="nearFall3">Near fall(5 sec) + 3</string>
+
+    <string name="penaltyA">Penalty + 1 (for b)</string>
+    <string name="penaltyB">Penalty + 1 (for a)</string>
+
+
+    <string name="nikolaRound">Nikola wins the round!</string>
+    <string name="overall"> wins the match due to overall score.</string>
+    <string name="nikolaOverall">Nikola wins the match due to overall score.</string>
+    <string name="tiedRound">Tied Round</string>
+    <string name="winsRound"> wins the round!</string>
+
+    <string name="stringNameDefaultValue">Player</string>
+
+    <string name="youWon">You won the match!!</string>
+    <string name="youLost">You lost, Nikola won the match!!</string>
+
+
+
+
+
+    <string name="pressRoundButton">Press Round Button</string>
+
+
+
+
+
+
+</resources>

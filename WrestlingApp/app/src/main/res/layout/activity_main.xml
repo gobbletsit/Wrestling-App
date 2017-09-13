@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollViewContainerDesign"
+    android:background="@drawable/back">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.wrestlingapp.MainActivity">
+
+        <Button
+            android:id="@+id/begin"
+            style="@style/NxtDesignBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/game" />
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:hint="@string/hint_edit_main"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/bijela" />
+
+    </RelativeLayout>
+</ScrollView>

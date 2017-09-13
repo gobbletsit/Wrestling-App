@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6695E7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pozadina">#F8F13E</color>
+    <color name="bijela">#FFFFFF</color>
+    <color name="roza_okvir">#D5313C</color>
+    <color name="view_boja">#A02E61</color>
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#1A237E</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#D50000</item>
+        <item name="editTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="NxtDesignBtn">
+        <item name="android:textColor">@color/bijela</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/roza_okvir</item>
+    </style>
+
+    <style name="ScrollViewContainerDesign">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="ViewDesignHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/view_boja</item>
+    </style>
+
+    <style name="GameButtonDesign">
+        <item name="android:textColor">@color/bijela</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+    </style>
+
+    <style name="ToggleButtonDesign">
+        <item name="android:textColor">@color/bijela</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textOn">@string/fight</item>
+    </style>
+
+    <style name="ImagePlayerDesign">
+        <item name="android:textColor">@color/bijela</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ImagePlayerBottom">
+        <item name="android:textColor">@color/bijela</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="TextPlayerName">
+        <item name="android:textColor">#A02E61</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextViewScore">
+        <item name="android:textColor">#A02E61</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:text">@string/score</item>
+        <item name="android:textSize">56sp</item>
+
+    </style>
+
+
+
+</resources>
